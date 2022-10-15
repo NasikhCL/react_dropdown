@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: brown;
+    background: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-repeat: repeat-y;
+  }
+
+.navbar{
+  width:100%;
+  height: 60px;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.nav-logo img{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  margin: auto 10px;
+}
+
+
+
+
+
+
+
+
+
+
+  .dropdown-container{
+    margin: 30px auto;
+    width: 300px;
+    cursor: pointer;
+  }
+  .dropdown{
+    transition: all 1s ease-in-out;
+    /* margin: 30px auto; */
+    width: 250px;
+    height: 30px;
+    border: 2px solid lightblue;
+    background-color: lightgray;
+    position: relative;
+    padding-left: 10px ;
+    /* text-align: center; */
+  }
+.dropdown-container:hover{
+    transition: all 1s ease-in-out;
+}
+  .dropdown h2{
+    transition: all 1s ease-in-out;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown-arrow{
+    position: absolute;
+    right: 2px;
+    top:2px
+
+  }
+
+  .list-items-box{
+    /* width: 250px; */
+    border-radius: 10px;
+    
+}
+.list-item{
+  border: 2px solid lightblue;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 2px auto;
+}
+  
+.list-item:hover{
+  background-color: rgb(128, 203, 228);
+}
+
+
+
+
+
+
+.input-box-container
+{
+  margin: 50px auto;
+  width: 300px;
+}
+.input-box  {
+
+    width:200px;
+    height:20px;
+    border: 1px solid grey;
+    font-size: 12px;
+    background-color: rgb(230, 230, 230);
+
+  }
+
+  button{
+    width:40px;
+    height: 22px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightblue;
+    background-color: transparent;
+    color: lightblue;
+
+  }
+  button:hover{
+    background-color: lightblue;
+    color: grey
+  }
