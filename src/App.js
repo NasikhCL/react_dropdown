@@ -1,6 +1,11 @@
 import React ,{useState} from 'react';
+
+
+// import dropdown annd navbar component
 import Dropdown from './components/Dropdown';
 import Navbar from './components/Navbar'
+
+
 
 export default function App() {
   

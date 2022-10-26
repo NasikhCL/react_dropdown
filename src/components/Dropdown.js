@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//dropdown component 
+
 export default function Dropdown({list}){
     
     console.log(list)
@@ -16,7 +18,7 @@ export default function Dropdown({list}){
         <div className="dropdown-container"  onMouseEnter={()=>(setIsHover(true))} onMouseLeave={()=>(setIsHover(false))}>
             <div className="dropdown" >
                 <h2>{selectedItem}</h2> 
-                <h2 className="dropdown-arrow"><img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/000000/external-chevron-arrows-tanah-basah-basic-outline-tanah-basah-4.png" alt="dropdown image"/></h2>
+                <h2 className="dropdown-arrow"><img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/000000/external-chevron-arrows-tanah-basah-basic-outline-tanah-basah-4.png" alt="dropdown-arrow"/></h2>
             </div>
             {isHover && <div className="list-items-box">
                 {Lists}
